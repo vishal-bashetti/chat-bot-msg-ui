@@ -260,3 +260,18 @@ body{
         opacity: 1;
     }
 }
+@media all and (max-width:644px) {
+    .chat-popup, .title {
+        width: 316px;
+    }
+    .chat-start{
+        width: 290px;
+    }
+    .msg-box{
+        width: 239px;
+    }
+    .msg-box-5{
+        width: 258px;
+        left:15px;
+    }
+}
