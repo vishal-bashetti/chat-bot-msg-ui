@@ -132,24 +132,24 @@ body{
 .msg-box-1{
     position: absolute;
     top: 72px;
-    animation: m1 5s 1 ;
+    animation: m1 4s 1 ;
 }
 .msg-box-2{
     position: absolute;
     top: 132px;
-    animation: m2 6s 1 ;
+    animation: m2 5s 1 ;
 
 }
 .msg-box-3{
     position: absolute;
     top: 192px;
-    animation: m3 7s 1 ;
+    animation: m3 6s 1 ;
 
 }
 .msg-box-4{
     position: absolute;
     top: 252px;
-    animation: m4 8s 1 ;
+    animation: m4 7s 1 ;
 
 }
 .msg-box-5{
@@ -168,7 +168,7 @@ body{
     font-weight: medium;
     box-shadow: 0 5px 5px rgba(0,0,0,0.1);
     cursor: pointer;
-    animation: m5 9s 1 ;
+    animation: m5 8s 1 ;
 
 }
 .msg-box-5>svg{
