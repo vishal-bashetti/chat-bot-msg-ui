@@ -1,0 +1,262 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap');
+body{
+    background-color: gray;
+    padding:0;
+    margin: 0;
+    font-family: 'DM Sans', sans-serif;
+    display: flex;
+    justify-content: center;
+}
+.chat-btn{
+    position: fixed;
+    right:50px;
+    bottom: 50px;
+    background: dodgerblue;
+    color: white;
+    width:60px;
+    height: 60px;
+    border-radius: 50%;
+    opacity: 0.8;
+    transition: opacity 0.3s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 5px 5px rgba(0,0,0,0.4);
+}
+
+.chat-btn:hover{
+    opacity: 1;
+}
+
+.chat-popup{
+    width: 416px;
+    height: 629px;
+    background-color: #ffffff;
+    position: fixed;
+    margin: 4px 30px;
+    border-radius: 20px;
+    animation: chat 3s 1;
+}
+.title{
+    width: 416px;
+    height: 278px;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    flex-direction: column;
+    padding-left: 56px;
+    background-color: #F5821F;
+    border-radius:10px 10px 0 0; 
+    position: relative;
+    animation: title 2s 1;
+}
+.title-text{
+    animation: title-text 2s 1;
+}
+.title h1{
+    font-size: 30px;
+    position: absolute;
+    top: 19px;
+    color: #fff;
+    font-weight: bold;
+}
+.title h2{
+    font-size: 22px;
+    position: absolute;
+    top: 65px;
+    color: #fff;
+    font-weight: bold;
+
+}
+.title h3{
+    font-size: 18px;
+    position: absolute;
+    top: 104px;
+    font-weight: medium;
+    color: #fff;
+}
+.bot-icon{
+    width: 67px;
+    height: 67px;
+    background-color: #FF7600;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    z-index: 11;
+    top: 165px;
+    left: 38px;
+    animation: title-text 2s 1;
+    box-shadow: 0 5px 5px rgba(0,0,0,0.3);
+}
+.chat-start{
+    height: 400px;
+    width: 390px;
+    position: absolute;
+    top: 199px;
+    background-color: #ffffff;
+    left:13px;
+    border: 1px solid #E1E1E1;
+    border-radius: 10px;
+    animation:chat-start 3s 1;
+
+}
+.chat-start p{
+    position: absolute;
+    top: 40px;
+    left: 39px;
+    font-size: 14px;
+    font-weight: medium;
+}
+.income-msg{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.msg-box{
+    width: 339px;
+    height: 50px;
+    border-radius: 10px;
+    border: 1px solid #E1E1E1;
+    left: 25px;
+    position: absolute;
+    top: 300px;
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    
+}
+
+.msg-box-1{
+    position: absolute;
+    top: 72px;
+    animation: m1 5s 1 ;
+}
+.msg-box-2{
+    position: absolute;
+    top: 132px;
+    animation: m2 6s 1 ;
+
+}
+.msg-box-3{
+    position: absolute;
+    top: 192px;
+    animation: m3 7s 1 ;
+
+}
+.msg-box-4{
+    position: absolute;
+    top: 252px;
+    animation: m4 8s 1 ;
+
+}
+.msg-box-5{
+    width: 268px;
+    height: 44px;
+    border-radius: 50px;
+    border: 1px solid #D1D1D1;
+    left: 54px;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    position: absolute;
+    top: 332px;
+    font-weight: medium;
+    box-shadow: 0 5px 5px rgba(0,0,0,0.1);
+    cursor: pointer;
+    animation: m5 9s 1 ;
+
+}
+.msg-box-5>svg{
+    margin-right: 8px;
+}
+
+@keyframes title{
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+@keyframes title-text{
+    0%{
+        opacity: 0;
+    }
+    90%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+@keyframes chat-start{
+    0%{
+        opacity: 0;
+    }
+    90%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+@keyframes m1{
+    0%{
+        opacity: 0;
+    }
+    90%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+@keyframes m2{
+    0%{
+        opacity: 0;
+    }
+    90%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+@keyframes m3{
+    0%{
+        opacity: 0;
+    }
+    90%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+@keyframes m4{
+    0%{
+        opacity: 0;
+    }
+    90%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+@keyframes m5{
+    0%{
+        opacity: 0;
+    }
+    90%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
