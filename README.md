@@ -6,7 +6,7 @@
 Site is live at: https://vishal-bashetti.github.io/chat-bot-msg-ui/ 
 
 Technology Used: 
-HTML
-CSS 
-Animation Keyframe
-Figma
+1.HTML                                                        
+2.CSS                                                                                
+3.Animation Keyframe                                                                  
+4.Figma                                    
