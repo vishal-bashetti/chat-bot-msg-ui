@@ -46,7 +46,7 @@ body{
     flex-direction: column;
     padding-left: 56px;
     background-color: #F5821F;
-    border-radius:10px 10px 0 0; 
+    border-radius:20px 20px 0 0; 
     position: relative;
     animation: title 2s 1;
 }
